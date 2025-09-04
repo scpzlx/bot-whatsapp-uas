@@ -39,10 +39,10 @@ async function connectToWhatsApp() {
     sock.ev.on('creds.update', saveCreds);
 
     sock.ev.on('messages.upsert', async ({ messages, type }) => {
-        if (type !== 'notify') return; // 
+        if (type !== 'notify') return;
 
         const msg = messages[0];
-        if (!msg.message || !msg.key.remoteJid || msg.key.fromMe) return; // 🔹 Ignorar si el mensaje es del bot
+        if (!msg.message || !msg.key.remoteJid || msg.key.fromMe) return;
 
         const messageText = msg.message.conversation || 
                            msg.message.extendedTextMessage?.text || '';
