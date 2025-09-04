@@ -15,8 +15,6 @@ Antes de clonar el repositorio, asegúrate de tener:
 - **Node.js** versión 18 o superior
 - **NPM** versión 9 o superior
 
----
-
 ### Instalación
 
 1. Clona este repositorio en tu computadora:
