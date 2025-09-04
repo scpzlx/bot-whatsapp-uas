@@ -30,15 +30,18 @@ Antes de clonar el repositorio, asegúrate de tener:
 
 ---
 
-# Scripts disponibles
+## Scripts disponibles
 
-- npm start       > Para correr el bot normal (producción)
-- npm run dev     > Para desarrollo, cuando editas código y quieres reinicio automático
-- npm test        > Ejecuta tests (actualmente no configurado)
+| Comando        | Descripción                                                         |
+|----------------|---------------------------------------------------------------------|
+| `npm start`    | Para correr el bot normal (producción)                              |
+| `npm run dev`  | Para desarrollo, cuando editas código y quieres reinicio automático |
+| `npm test`     | Ejecuta tests (actualmente no configurado)        |
+
 
 ---
 
-# Guia para usar el Bot
+## Guia para usar el Bot
 
 1. Ejecuta el bot:
 - npm start
