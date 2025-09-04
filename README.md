@@ -25,7 +25,7 @@ Antes de clonar el repositorio, asegúrate de tener:
    git clone https://github.com/scpzlx/bot-whatsapp-uas.git
    cd bot-whatsapp-uas
 3. Instala todas las dependencias necesarias:
-<br>**Asegurate de estar en la carpeta raiz del proyecto**
+- *Asegurate de estar en la carpeta raiz del proyecto*
 - npm install
 
 ---
