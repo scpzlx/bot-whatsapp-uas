@@ -53,12 +53,12 @@ async function connectToWhatsApp() {
         console.log(`Mensaje recibido: ${messageText}`);
 
         if (messageText.toLowerCase() === 'hola' || messageText === '0') {
-            await sock.sendMessage(sender, { 
-                text: '¡Bienvenido al sistema de la escuela UAS! \n\nElige una opción:\n1. Horarios de clase\n2. Contacto administrativo\n3. Ubicación de la escuela\n4. Información de inscripciones\n\nResponde con el número de la opción que deseas.\n *[TODO ES UN EJEMPLO PARA TENER UNA BASE]*' 
+            await sock.sendMessage(sender, {
+                text: '¡Bienvenido al sistema de la escuela UAS! \n\nElige una opción:\n1. Horarios de clase\n2. Contacto administrativo\n3. Ubicación de la escuela\n4. Información de inscripciones\n\nResponde con el número de la opción que deseas.\n*[TODO ES UN EJEMPLO PARA TENER UNA BASE]*' 
             });
         }
         else if (messageText === '1') {
-            await sock.sendMessage(sender, { 
+            await sock.sendMessage(sender, {
                 text: '*HORARIOS DE CLASE*\n\nLunes a Viernes:\n• [Ejemplo]: 7:00 am - 1:30 pm\n• [Ejemplo]: 7:30 am - 2:30 pm\n• [Ejemplo]: 8:00 am - 3:00 pm\n\n¿Necesitas algo más? Responde con el número 0 para volver al menú principal.' 
             });
         }
