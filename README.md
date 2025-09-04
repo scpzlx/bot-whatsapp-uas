@@ -1,9 +1,9 @@
 # bot-whatsapp-uas
 Bot de WhatsApp para la Unidad Académica Escuela de Diseño y Artes Visuales, UAS
 
-Este proyecto es un **chatbot de WhatsApp** que permite a los estudiantes consultar información
-importante de la Unidad Académica Escuela de Diseño y Artes Visuales, UAS, desde la comodidad 
-de sus teléfonos celulares.
+Este proyecto consiste en un **chatbot de WhatsApp** que permite a los estudiantes consultar 
+información relevante de la Unidad Académica Escuela de Diseño y Artes Visuales de la UAS,
+directamente desde sus teléfonos móviles.
 
 ---
 
